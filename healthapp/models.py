@@ -23,7 +23,7 @@ class Myappointment(models.Model):
     email = models.EmailField()
     phone = models.CharField(max_length=20)
     datetime = models.DateTimeField()
-    department = models.CharField(max_length=10)
+    department = models.CharField(max_length=20)
     doctor = models.CharField(max_length=100)
     message = models.TextField()
 

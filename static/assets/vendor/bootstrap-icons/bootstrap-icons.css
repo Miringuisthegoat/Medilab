@@ -1187,6 +1187,7 @@ url("./fonts/bootstrap-icons.woff?e34853135f9e39acf64315236852cd5a") format("wof
 .bi-star-half::before { content: "\f587"; }
 .bi-star::before { content: "\f588"; }
 .bi-stars::before { content: "\f589"; }
+.bi-stethoscope::before {content: "\f8a0";}
 .bi-stickies-fill::before { content: "\f58a"; }
 .bi-stickies::before { content: "\f58b"; }
 .bi-sticky-fill::before { content: "\f58c"; }

@@ -192,4 +192,13 @@ def mpesa_callback(request):
 def transactions_list(request):
     # Only show successfully completed transactions
     transactions = Transaction.objects.filter(status="Success").order_by('-date')
-    return render(request, 'transactions.html', {'transactions': transactions})
+    return render(request, 'transactions.html', {'transactions': transactions})\
+
+
+def register(request):
+    return render(request, 'register.html')
+
+
+def login(request):
+    return render(request, 'login.html')    
+
